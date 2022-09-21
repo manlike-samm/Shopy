@@ -1,10 +1,11 @@
-import { Navbar, Promo } from "../components";
+import { Navbar, Promo, TrendingNow } from "../components";
 
 const Landingpage = () => {
   return (
     <div className="flex-col flex justify-center ">
       <Navbar />
       <Promo />
+      <TrendingNow />
     </div>
   );
 };

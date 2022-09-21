@@ -10,4 +10,10 @@ const nextConfig = {
   // },
 };
 
-module.exports = nextConfig;
+module.exports = {
+  nextConfig,
+  images: {
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+  },
+};
